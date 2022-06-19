@@ -10,7 +10,7 @@ function Home() {
         <img src="images/intro1.png" alt="Photo of dog with computer" />
         <article className="text i">
             <h2>Акція</h2>
-            <p>При підключенні протягом травня та червня 2020 року абонентська плата буде зменшена до кінця року</p>
+            <p>При підключенні протягом травня та червня абонентська плата буде зменшена до кінця року</p>
             <br/>
             <a href='/Акції' className="big-a">Детальніше</a>
         </article>

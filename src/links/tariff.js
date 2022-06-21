@@ -280,7 +280,7 @@ function Tariff() {
                     <div class="tariff-order-input">
                         <input id="type" type="text" placeholder="Назва тарифу" required/>
                         <input id="name" type="text" placeholder="Ваше ім'я" required/>
-                        <input id="phone" type="text" placeholder="Номер телефону" required/>
+                        <input id="phone" type="number" placeholder="Номер телефону" required/>
                         <button class="big-btn" onClick={requestTariff}>Підтвердити замовлення</button>
                     </div>
                 </div>

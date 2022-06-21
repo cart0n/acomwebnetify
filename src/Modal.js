@@ -43,7 +43,7 @@ const Modal = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
         <div className="modal-form">
           <form>
             <input id = "nameModal" type="text" placeholder="Ваше ім'я" required />
-            <input id = "phoneModal" type="text" placeholder="Номер телефону" required  />
+            <input id = "phoneModal" type="number" placeholder="Номер телефону" required  />
             <button class="modal-btn" onClick={request}>Підтвердити</button>
           </form>
           <div>

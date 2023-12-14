@@ -230,7 +230,7 @@ function App () {
           <Route path='/Тарифи' component={Tariff} />
           <Route path='/Підтримка' component={Support} />
           <Route path='/Контакти' component={Contacts} />
-          <Route path='/alogin' component={login} />
+          <Route path='/login' component={login} />
         </div>
       );
 
